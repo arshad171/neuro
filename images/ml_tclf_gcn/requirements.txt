@@ -1,0 +1,8 @@
+--find-links https://data.pyg.org/whl/torch-2.6.0+cpu.html
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
+torch-scatter
+torch-sparse
+torch-geometric
+torch-cluster

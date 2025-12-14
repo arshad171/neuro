@@ -5,23 +5,47 @@
 - NeuRO Profiler architecture
 - Solving NeuRO optimizer with embedded neural network constraints
 
-## Access to Data
+## Requirements
 
-## Run Scripts - Performance Profiling
+- OS: any Linux distro running Docker and Kubernets
+- Install the python reqiurements `pip install -r requirements.txt`
+
+## Docker Images
+
+1. A set of 9 ML applications are provided under the [images](./images) directory. The applications are as packages Docker containers intended to to be run as services. More applications can be added following the format.
+
+2. Make sure to download the repective weights for the ML architectures by running the [download_weights](./images/download_weights.py). This is requimrent for `ml_iclf_mvit, ml_text_tbert, ml_text_bert` applications.
+
+3. Build the images
+
+```bash
+# TODO: activate the kube docker registry
+cd images;
+python build_script_ml_edge.py
+```
+
+## Scripts - Performance Profiling
 
 The [scripts](./scripts) folder contains the following sample scripts to aid in performance profiling
 - 
 - 
 
+## Data Processing
+
+Run the [data_analysis](./data_analysis.ipynb) notebook to read the data and create data preprocessing artifacts
+- 
+
 ## Training Performance Profilers
 
-## NeuRO
+### NeuRO
 
 First update the following variables before running [training.ipynb](./training.ipynb)
 -  `DS_TRAIN`: paths to folders containing the raw data
 
-## Benchmarks (PERX, Scal-ORAN)
+### Benchmarks (PERX, Scal-ORAN)
 
+
+## Optimization
 
 ## Citation
 
