@@ -41,7 +41,7 @@ cd $PROJECT_ROOT;
 ## 3. Data Processing
 
 Run the [data_analysis](./data_analysis.ipynb) notebook to read the data and create data preprocessing artifacts
-- 
+-  `DS_TRAIN`: paths to folders containing the raw data
 
 ## 4. Training Performance Profilers
 
