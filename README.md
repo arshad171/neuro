@@ -27,8 +27,15 @@ python build_script_ml_edge.py
 ## Scripts - Performance Profiling
 
 The [scripts](./scripts) folder contains the following sample scripts to aid in performance profiling
-- 
-- 
+
+```bash
+# TODO: activate the kube docker registry
+cd $PROJECT_ROOT;
+```
+
+1. Capture baseline measurements (under no resource contention) `bash scripts/baselines.bash`
+2. Pairwise experiments (pairwise resource contention) `bash scripts/pairwise.bash`
+2. NeuRO profiling experiments (random application deployments) `bash scripts/rand.bash`
 
 ## Data Processing
 
