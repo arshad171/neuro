@@ -10,7 +10,7 @@
 - OS: any Linux distro running Docker and Kubernets
 - Install the python reqiurements `pip install -r requirements.txt`
 
-## Docker Images
+## 1. Docker Images
 
 1. A set of 9 ML applications are provided under the [images](./images) directory. The applications are as packages Docker containers intended to to be run as services. More applications can be added following the format.
 
@@ -24,7 +24,7 @@ cd images;
 python build_script_ml_edge.py
 ```
 
-## Scripts - Performance Profiling
+## 2. Performance Profiling
 
 The [scripts](./scripts) folder contains the following sample scripts to aid in performance profiling
 
@@ -35,14 +35,15 @@ cd $PROJECT_ROOT;
 
 1. Capture baseline measurements (under no resource contention) `bash scripts/baselines.bash`
 2. Pairwise experiments (pairwise resource contention) `bash scripts/pairwise.bash`
-2. NeuRO profiling experiments (random application deployments) `bash scripts/rand.bash`
+3. NeuRO profiling experiments (random application deployments) `bash scripts/rand.bash`
 
-## Data Processing
+
+## 3. Data Processing
 
 Run the [data_analysis](./data_analysis.ipynb) notebook to read the data and create data preprocessing artifacts
 - 
 
-## Training Performance Profilers
+## 4. Training Performance Profilers
 
 ### NeuRO
 
@@ -52,7 +53,7 @@ First update the following variables before running [training.ipynb](./training.
 ### Benchmarks (PERX, Scal-ORAN)
 
 
-## Optimization
+## 5. Optimization
 
 ## Citation
 

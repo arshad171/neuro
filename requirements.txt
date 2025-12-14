@@ -3,3 +3,5 @@ kneed
 pandas
 numpy
 torch
+torchvision
+transformers
