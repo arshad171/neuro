@@ -57,6 +57,11 @@ First update the following variables before running [training_perx.ipynb](./trai
 
 ## 5. Optimization
 
+- Steps (1)-(4) may be repeated to profile multiple servers.
+- Make sure to update the output folders each of the steps when repeating the process for different servers so as to not override the results.
+- The more powerful servers have higher rank (or a lower index)
+
+
 ## Citation
 
 

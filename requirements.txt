@@ -5,3 +5,5 @@ numpy
 torch
 torchvision
 transformers
+cyipopt
+ipopt
