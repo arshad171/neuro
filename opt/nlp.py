@@ -324,7 +324,7 @@ def merge_final_method_single(
                     id_a == id_b
                     or z_a_sol + tenant_a["constr_sol"] >= 1
                     or z_b_sol <= 0
-                    or tenant_a["sla_type"] > tenant_b["sla_type"]
+                    or tenant_a["sla_type"] != tenant_b["sla_type"]
                     # or z_a_sol >= 1
                 ):
                     continue

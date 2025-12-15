@@ -2,8 +2,8 @@
 
 ## Highlights :rocket:
 
-- NeuRO Profiler architecture
-- Solving NeuRO optimizer with embedded neural network constraints
+- NeuRO Profiler architecture. see `train/predictors.py:55`
+- Solving NeuRO optimizer with embedded neural network constraints `opt/nlp.py:730`
 
 ## Requirements
 
