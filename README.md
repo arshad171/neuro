@@ -50,8 +50,10 @@ Run the [data_analysis](./data_analysis.ipynb) notebook to read the data and cre
 First update the following variables before running [training.ipynb](./training.ipynb)
 -  `DS_TRAIN`: paths to folders containing the raw data
 
-### Benchmarks (PERX, Scal-ORAN)
+### Benchmarks
 
+First update the following variables before running [training_perx.ipynb](./training_perx.ipynb)
+-  `DS_TRAIN`: paths to folders containing the raw data
 
 ## 5. Optimization
 
