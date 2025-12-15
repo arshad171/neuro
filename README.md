@@ -61,6 +61,11 @@ First update the following variables before running [training_perx.ipynb](./trai
 - Make sure to update the output folders each of the steps when repeating the process for different servers so as to not override the results.
 - The more powerful servers have higher rank (or a lower index)
 
+Run the [opt_neuro](./opt_neuro.py) script.
+- `NUM_SERVERS`: the number of servers
+- `TIME_LIMITS`: the limit for NeuRO (in mins)
+- `C_S`: memory limit (GB)
+- `SERVER_RANK_L_FRAC`: fraction of low to high rank servers
 
 ## Citation
 

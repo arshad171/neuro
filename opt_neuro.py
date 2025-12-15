@@ -14,7 +14,7 @@ import opt.nlp as nlp
 
 import opt.opt_perx as opt_perx
 
-SERVER_RANK_L_FRAC = 2 # 1 over this
+SERVER_RANK_L_FRAC = 0.5 # 1 over this
 SCENARIO = "s1"
 
 NUM_SERVERS = [2, 4, 6, 8, 10]
@@ -26,7 +26,7 @@ SEED = [19, 21, 33, 31, 56, 5, 6, 93, 48, 76, 54, 11, 23, 94, 12]
 START_IX = 0
 NUM_RUNS = 5
 BENCH_NUM_ITERS = 3
-C_S = 32
+C_S = 32 # memory capacity
 CLEAR = False
 
 APPLICATION_CATALOG = ApplicationCatalog.E
@@ -103,7 +103,7 @@ for ix, num_servers in enumerate(NUM_SERVERS):
     # low to high index (or high to low ranks)
     SERVER_RANKS_L2H_ix = []
 
-    num_h = max(1, num_servers // SERVER_RANK_L_FRAC)
+    num_h = max(1, int(num_servers * SERVER_RANK_L_FRAC))
     for _ in range(num_h):
         SERVER_RANKS_L2H_ix.append(1)
 
