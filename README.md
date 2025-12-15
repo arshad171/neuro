@@ -69,5 +69,25 @@ Run the [opt_neuro](./opt_neuro.py) script.
 
 ## Citation
 
+If you found the repository useful, please cite our work
+
+Accepted for publication at INFOCOM 2026, Tokyo, Japan.
+
+(DOI will be updated soon)
+
+<!-- ```
+@inproceedings{neuro-2026,
+author={Javeed, Arshad and Fodor, Viktoria and D{\'a}n, Gy{\"o}rgy},
+title = {NeuRO: Inference-time Profiling and Orchestration of ML Applications at the Edge},
+year = {2026},
+publisher = {},
+address = {},
+doi = {10.1109/INFOCOM53939.2023.10229100},
+booktitle = {INFOCOM 2026 - IEEE Conference on Computer Communications},
+numpages = {10},
+location = {Tokyo, Japan}
+}
+``` -->
+
 
 
