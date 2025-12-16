@@ -65,7 +65,7 @@ Run the [opt_neuro](./opt_neuro.py) script.
 - `NUM_SERVERS`: the number of servers
 - `TIME_LIMITS`: the limit for NeuRO (in mins)
 - `C_S`: memory limit (GB)
-- `SERVER_RANK_L_FRAC`: fraction of low to high rank servers
+- `SERVER_RANK_L_FRAC`: fraction of low rank servers
 
 ## Citation
 
